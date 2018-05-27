@@ -1,0 +1,137 @@
+/* 
+  Front.strings
+  Typora
+
+ by hi@typora.io
+ translated by Gabor Tarnoczai [undergrinder] <gabor.tarnoczai@gmail.com>
+*/
+
+/* Common */
+"OK" = "OK";
+"Cancel" = "Mégsem";
+"Yes" = "Igen";
+"No" = "Nem";
+"Close" = "Bezár";
+"Select" = "Választ";
+"Continue" = "Folytatás";
+"Learn More…" = "További információk…";
+"Untitled" = "Névtelen";
+"Undo" = "Visszavon";
+"Dismiss" = "Elvet";
+"Confirm" = "Megerősít";
+"Error" = "Hiba";
+
+/* Search Panel */
+"Search" = "Keresés";
+"Replace" = "Csere";
+"All" = "Mind";
+"Search text not found in article" = "A keresett kifejezés nem található";
+"search text" = "Kereső szöveg";
+
+/* Quick Open */
+"Search by file name" = "Keresés fájlnév alapján";
+"Searching" = "Keresés";
+"Gathering more results" = "Több eredmény gyűjtése";
+
+/* Tables */
+"Insert Table" = "Táblázat beszúrása";
+"Columns" = "Oszlopok";
+"Rows" = "Sorok";
+"Align Left" = "Balra igazítás";
+"Align Center" = "Középre igazítás";
+"Align Right" = "Jobbra igazítás";
+"Resize Table" = "Táblázat átméretezése";
+"Delete Table" = "Táblázat törlése";
+
+/* Images */
+"Copy Image To..." = "Kép másolása...";
+"Typora are trying copy the newly inserted image to folder <code id='image-create-folder-target'></code> according to your YAML Front Matter setting. But the target folder does not exist, create it now?" = "A YAML Front Matter beállítások alapján képek a <code id='image-create-folder-target'></code> mappában helyezkednek el. A könyvtár nem létezik, létrehozza?";
+"Create Folder" = "Mappa létrehozása";
+
+/* Math */
+"Edit" = "Szerkesztés";
+"Delete Math" = "Képlet törlése";
+"Preview" = "Előnézet";
+
+/* Sidebar */
+"Articles" = "Cikkek";
+"Outline" = "Vázlat";
+"Files" = "Fájlok";
+"Switch to File List view" = "Váltás fájl lista nézetre";
+"Switch to File Tree view" = "Váltás fájl fa nézetre";
+"Switch to Outline view" = "Váltás vázlat nézetre";
+"Close sidebar" = "Oldalsáv bezárása";
+"Loading" = "Betöltés";
+"Selected folders contains too many files. \nPlease switch to <a id='switch-to-tree-on-oversize'>File Tree view</a> for better performance." = "A választott mappa túl sok fájlt tartalmaz. \nKérem váltson <a id='switch-to-tree-on-oversize'>Fájl fa nézetre</a> a jobb teljesítmény érdekében.";
+"New File" = "Új fájl";
+"Unpin Outline Panel" = "Vázlat panel rögzítésének feloldása";
+"Open Folder..." = "Mappa megnyitása...";
+"Action" = "Művelet";
+"Close Sidebar Menu" = "Oldalsáv bezárása";
+"Reveal in Finder" = "Megjelenítés a Finder-ben";
+"Reveal in File Explorer" = "Megjelenítés az intézőben";
+"Refresh Folder" = "MAppa frissítése";
+"Sort" = "Rendezés";
+"Group By Folder" = "Csoportosítás mappánként";
+"Sort Naturally" = "Rendezés természetesen";
+"Sort by Name" = "Rendezés név szerint";
+"Sort by Modification Date" = "Rendezés módosítási dátum szerint";
+"Recent Locations" = "Nemrég használt útvonalak";
+"Location" = "Útvonal";
+"Switch File List/Tree View" = "Váltás Fájl Lista/Fa nézet között";
+"No Files Available" = "Nincs elérhető fájl";
+"No Folder is Opened." = "Nincs nyitott mappa.";
+"Outline is Empty." = "A vázlat üres";
+
+/* Status Bar */
+"Toggle Sidebar" = "Oldalsáv váltókapcsoló";
+"Toggle Source Code Mode" = "Forráskód mód váltókapcsoló";
+"Exit Source Code Mode" = "Kilépés a forráskód módból";
+
+"Table of Contents" = "Tartalomjegyzék";
+"Empty Diagram" = "Üres diagram";
+"Input Math TeX here" = "TeX képlet helye";
+
+"Need to define the reference footnote <b>{0}</b> with syntax <a>[^{1}]: www.example.com</a>" = "Definiálni kell a lábjegyzet hivatkozást <b>{0}</b> a következő formában <a>[^{1}]: www.example.com</a>";
+"Need to define the reference link <b>[{0}]</b> with syntax <b>[{1}]: www.example.com</b>" = "Definiálni kell a link hivatkozást <b>[{0}]</b> a következő formában <b>[{1}]: www.example.com</b>";
+"Please define image reference by \n[{0}]: http://example.png" = "Kérem definiálja a következő kép hivatkozást \n[{0}]: http://example.png";
+
+/* msg */
+"Failed to create file" = "Fájl létrehozása sikertelen";
+"Failed to create folder" = "Mappa lérehozása sikertelen";
+"Failed to rename file" = "Fájl átnevezése sikertelen";
+"Folder does not exist at %@" = "A mappa nem létezik: %@";
+"File with the same name already exists at target path" = "A célmappában már létezik ilyen nevű fájl.";
+"Apply to All" = "Mindent jóváhagy";
+"Overwrite" = "Felülírás";
+"Stop" = "Stop";
+"back to document" = "Vissza a dokumentumhoz";
+"Failed to load file" = "Fájl betöltése sikertelen";
+"Save File Failed!" = "Fájl mentése sikertelen!";
+"Cannot open folder {0}" = "Mappa megnyitása sikertelen: {0}";
+
+"File content is changed by external applications. Reload content from disk ?" = "A fájl tartalma megváltozott más program által. Újratölti a fájlt?";
+"Should continue moving and overwrite exisiting file(s) ?" = "Folytassuk a már létező fájlok áthelyezésével és átnevezésével?";
+
+"Rename Failed" = "Átnevezés sikertelen";
+"Rename to \"{0}\" ?" = "Átnevezi a következőre: \"{0}\" ?";
+"Failed to rename from \"{0}\" to \"{1}\"" = "Sikertelen átnvezés \"{0}\" - \"{1}\"";
+
+/* Image upload & move */
+"Successfully uploaded {0} images." = "{0} kép sikeresen feltöltve.";
+"Failed to upload image. Error Message:" = "Kép feltöltése sikertelen. Hibaüzenet:";
+"Failed to Copy Image to Target Folder." = "Sikertelen kép másolása a célmappába";
+"Select Container Folder" = "Tároló mappa választása";
+
+"Saved" = "Mentett";
+
+/* place holder in find & replace input */
+"search text" = "szöveg keresése";
+"replace with" = "csere";
+/* search option */
+"Case Sensitive" = "Kis és nagybetű különbözőnek számít";
+"Whole Word" = "Teljes szó";
+
+"input image URL" = "Kép URL alapján";
+"Select image from local file" = "Kép választása merevlemezről";
+"Cannot open location <code>$1</code>, do you mean <a href='https://$3'>https://$2</a> ?" = "Elérési út megnyitása sikertelen: <code>$1</code>, erre gondol: <a href='https://$3'>https://$2</a> ?";
